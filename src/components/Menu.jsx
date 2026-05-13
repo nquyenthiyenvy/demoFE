@@ -141,8 +141,8 @@ export default function Sidebar() {
 
   return (
     <aside
-      className={`h-screen bg-[#241209] border-r border-[rgba(201,168,76,0.18)] flex flex-col overflow-hidden transition-all duration-300 ease-in-out
-        ${collapsed ? "w-16 min-w-[64px]" : "w-60 min-w-[240px]"}`}
+      className={` z-[2000] h-screen bg-[#241209] border-r border-[rgba(201,168,76,0.18)] flex flex-col overflow-hidden transition-all duration-300 ease-in-out shadow-2xl
+        ${collapsed ? "w-16" : "w-60"}`}
     >
       {/* Brand + Toggle */}
       <div
