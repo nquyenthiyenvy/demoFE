@@ -14,3 +14,43 @@ body {
   flex-direction: row;
   overflow: hidden;
 }
+
+:root {
+  /* Brand */
+  --brand-primary: #C9A84C;
+  --brand-on-primary: #2C1810;
+  --brand-bg: #241209;
+
+  /* Accent / neutrals */
+  --muted-1: #C4B89A;
+  --muted-2: #F5EDD6;
+
+  /* Category colors */
+  --cat-quanan-color: #A32D2D;
+  --cat-quanan-bg: #FCEBEB;
+
+  --cat-quancafe-color: #0F6E56;
+  --cat-quancafe-bg: #E1F5EE;
+
+  --cat-ditich-color: #1D4ED8;
+  --cat-ditich-bg: #EFF6FF;
+
+  /* Map marker fallback */
+  --marker-quanan: #E57373;
+  --marker-quancafe: #4DB6AC;
+  --marker-ditich: #64B5F6;
+  /* Brand variants and translucent shades used across the UI */
+  --brand-primary-08: rgba(201,168,76,0.08);
+  --brand-primary-07: rgba(201,168,76,0.07);
+  --brand-primary-10: rgba(201,168,76,0.1);
+  --brand-primary-12: rgba(201,168,76,0.12);
+  --brand-primary-15: rgba(201,168,76,0.15);
+  --brand-primary-18: rgba(201,168,76,0.18);
+  --brand-primary-35: rgba(201,168,76,0.35);
+  --brand-primary-50: rgba(201,168,76,0.5);
+  --brand-primary-45: rgba(201,168,76,0.45);
+
+  --brand-primary-variant: #D4B55A;
+  --overlay-dark: rgba(44,24,16,0.85);
+}
+
